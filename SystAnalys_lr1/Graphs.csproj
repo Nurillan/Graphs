@@ -82,34 +82,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cursor-game-01.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cursor.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vertex.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\edge.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\deleteAll.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\delete.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\smezh.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\inc.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chain.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cycle.jpg" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
